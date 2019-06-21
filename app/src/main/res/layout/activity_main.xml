@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/getSync"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="GET同步"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/getAsync"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="GET异步"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/postSync"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="POST同步"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/postASync"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="POST异步"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+</LinearLayout>
